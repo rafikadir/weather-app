@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #f4f9f9;
+}
+section {
+    height: 100vh;
+}
+.weather-div {
+    background: #fff;
+    box-shadow: 0 0 30px 0 #0dcaf038;
+    border-radius: 20px;
+    width: 48%;
+    margin: 0 1%;
+    padding: 30px;
+}
+.search-bar {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.search-bar input {
+    border: 2px solid #d4e5e5;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 15px;
+}
+.search-bar button {
+    background: #474faf;
+    color: #ffff;
+    border: 0;
+    height: 40px;
+    padding: 0 25px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.search-bar button:hover {
+    background: #350b40;
+}
+.search-bar input:focus {
+    outline: 0;
+}
+#weatherImg {
+    max-width: 200px;
+}
+#celcious {
+    font-size: 60px;
+}
+h1 sup {
+    font-size: 20px;
+    padding-left: 10px;
+    top: -1.5em;
+    color: #350b40;
+    cursor: pointer;
+}
+.weather-div {
+    position: relative;
+}
+.weather-div .top-text{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    text-align: right;
+}
+.weather-div .top-text h1 {
+    color: #7cb9b4;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.weather-div .top-text h4 {
+    font-size: 18px;
+}
+.active {
+    color: red;
+}
+
+#description {
+    font-size: 18px;
+    color: #bdb9b9;
+    text-transform: capitalize;
+}
+
+.weather-info ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.weather-info ul li span {
+    font-size: 16px;
+    margin-left: 30px;
+    color: #9999ae;
+    font-weight: 500;
+}
