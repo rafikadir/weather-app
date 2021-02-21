@@ -96,3 +96,13 @@ h1 sup {
     color: #9999ae;
     font-weight: 500;
 }
+
+@media (max-width:768px) {
+    .weather-div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .search-bar input {
+        margin-bottom: 10px;
+    }
+}
